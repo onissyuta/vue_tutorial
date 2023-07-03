@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Form from './components/InputName.vue'
+import Todo from './components/Todo.vue'
 import { ref } from 'vue'
 
 const count = ref(0)
@@ -62,6 +63,9 @@ function toggle(){
   </p>
 
   <Form />
+  <hr>
+  <Todo />
+
 
 </template>
 
